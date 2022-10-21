@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/services/main.css" />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <title>الخدمات</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <div id="logo"<a href="/">Unikorns</a></div>
+                <nav>
+                    <ul>s
+                        <li><a href="../index.html">الصفحة الرئيسية</a></li>
+                        <li><a href="showcases.html">العروض</a></li>
+                        <li><a class="active" href="servises.html">الخدمات</a></li>
+                        <li><a href="aboutUs.html">من نحن</a></li>
+                        <li><a href="../index.html#magazine">المجلة</a></li>
+                        <li id="contact-us" onclick="openNav()">تواصل معنا</li>
+                    </ul>
+            </nav>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="../index.html">الصفحة الرئيسية</a></li>
+                    <li><a href="showcases.html">العروض</a></li>
+                    <li><a class="active" href="services.html">الخدمات</a></li>
+                    <li><a href="aboutUs.html">من نحن</a></li>
+                    <li><a href="../index.html#magazine">المجلة</a></li>
+                    <li id="contact-us" onclick="openNav()">تواصل معنا</li>
+                </ul>
+            </div> 
+        </header>
+
+        <div class="contactUs" id="backdrop"></div>
+        <div id="contact-form" class="form-container">
+          <img src="../images/services-imgs/close.png" class="closebtn" onclick="closeNav()">
+          <h1>إقتبس</h1>
+          <p>توقف عن التفكير في شيء عندما يمكنك الحصول عليه! اتصل بنا الآن واصنع صاروخًا من موقع الويب الخاص بك.</p>
+          <form>
+              <input type="text" id="name" name="name" placeholder="الإسم"><br>
+              <input type="email" id="email" name="email" placeholder="البريد الإلكتروني*" required><br>
+              <input type="text" id="message" name="message" placeholder="الرسالة*" required><br>
+          </form>
+          <p>حدد ميزانيتك</p>
+          <div>
+            <button>$10k-$5k</button>
+            <button>$20k-$10k</button>
+            <button>$30k-$20k</button>
+            <button>غير ذلك</button>
+          </div>
+          <button>أرسل الرسالة</button>
+          <p>بالنقر على إرسال رسالة، فإنك توافق على سياسة الخصوصية<br><br>أو أرسل لنا ملاحظة عبر البريد الإلكتروني<br>hello@unikorns.work</p>
+          
+        </div>
+
+        <div class="services">
+            <div class="container">
+                <div class="services-content">
+                    <div class="card">
+                        <div class="info">
+                            <h1>كلمة عن خدماتنا</h1>
+                            <p>
+                                نقوم بإنشاء مواقع الويب من الألف إلى الياء. نتأكد من أنها سريعة    
+                                الاستجابة وجديدة بتصميم نظيف بشكل ملحوظ. كما أننا نسعى جاهدين
+                                لإنشاء أنظمة آمنة للغاية ومستقرة وسريعة بشكل مثير للإعجاب. كما قلنا
+                                تعد العمليات جيدة البناء أحد المفاتيح لعالم المشاريع المجهزة بشكل مثالي.
+                                لتحقيق ذلك نستخدم هندسة تطوير الويب الحديثة، JAMstack، ونمزجها مع تصميم مخصص. 
+                            </p>
+                            <button>دعنا نتحدث</button>
+                        </div>
+                        <div class="img">
+                             <img src="../images/services-imgs/illustration.png">
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="service1">
+                    <div class="info">
+                        <h3>ينفجر من موقع الويب الخاص بك JAMstack 
+                            <br>
+                            انطلق من موقع الويب الخاص بك: JAMstack
+                        </h3>
+                        <p>تعرف على بطلنا ومستقبل المواقع الإلكترونية - JAMstack. لذا، محادثات التطوير الصغيرة هنا. </p>
+                        <button>دعنا نتحدث</button>
+                    </div>
+                    <div class="card">
+                        <img src="../images/services-imgs/photo 1.png">
+                    </div>
+                </div>
+                <div class="about">
+                    <div class="icon1">
+                        <img src="../images/services-imgs/icon1.png">
+                    </div>
+                    <div class="about-text">
+                        <h2>حول تقنية JAMstack</h2>
+                        <p>
+                            JAMstack هو نهج حديث لتطوير الويب. يتضمن هذا الأسلوب استخدام 
+                            Static Site Generators و Headless CMSs و CDNs كخادم. هؤلاء الثلاثة يقودوننا
+                            إلى قسم الصفحة التالي - فوائد JAMstack.
+                        </p>
+                    </div>
+                    <div class="icon2">
+                        <img src="../images/services-imgs/icon2.png">
+                    </div>
+                </div>
+            </div>
+            <div class="benefits">
+                <div class="container">
+                    <div class="about-benefits">
+                        <h2>فوائد JAMstack</h2>
+                    </div>
+                    <div class="benefits-container">
+                        <div class="col">
+                            <div class="srv-box">
+                                <img src="../images/services-imgs/fast.png">
+                                <div class="text">
+                                    <h3>بسرعة البرق</h3>
+                                    <p>
+                                    فضل العروض المسبقة لموقع Static Site Generator قبل قيام المستخدم بتقديم طلب. أيضًا ، يعيد موقع الويب البناء عند الطلب فقط عندما يتغير كود المصدر أو المحتوى في CMS.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="srv-box">
+                                <img src="../images/services-imgs/fast.png">
+                                <div class="text">
+                                <h3>صيانة منخفضة التكلفة</h3>
+                                    <p>
+                                    تكلفة البنية التحتية أقل من الطريقة التقليدية لأنها لا تتطلب قوة حوسبة ثابتة.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="srv-box">
+                                <img src="../images/services-imgs/checked.png">
+                                <div class="text">
+                                     <h3>مستقر وآمن للغاية</h3>
+                                    <p>
+                                    لن يتم سحق موقع الويب أبدًا ما لم يتم سحق CDN (شبكة توصيل المحتوى) بالكامل. لكن من غير المحتمل جدا.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="srv-box">
+                                <img src="../images/services-imgs/fast.png">
+                                <div class="text">
+                                    <h3>المرونة</h3>
+                                    <p>
+                                    إذا أردت تغيير نظام إدارة محتوى فجأة ، فهذه ليست مشكلة. بفضل Headless СMS ، يجب تغيير عنوان URL فقط ، وربما بضعة أشياء فقط في شفرة المصدر.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="tools">
+                        <h1>أدواتنا</h1>
+                        <div class="face">
+                            <h2>الواجهة والبناء</h2>
+                            <div class="columns">
+                                <div class="tools-box">
+                                    <h3>Gatsby</h3>
+                                    <img src="../images/services-imgs/Gatsby.png">
+                                </div>
+                                <div class="tools-box">
+                                    <h3>React</h3>
+                                    <img src="../images/services-imgs/react.png">                         
+                                </div>
+                                <div class="tools-box">
+                                    <h3>Next.js</h3>
+                                    <img src="../images/services-imgs/nextJs.png">                           
+                                </div>
+                            </div>
+                        </div>
+                        <div class="headless">
+                            <h2>HEADLESS CMS</h2>
+                            <div class="rows">
+                                <div class="tools-box">
+                                    <h3>strapi</h3>
+                                    <img src="../images/services-imgs/strapi-icon.png">                          
+                                </div>
+                                <div class="tools-box">
+                                    <h3>storyblock</h3>
+                                    <img src="../images/services-imgs/storyblock.png">  
+                                </div>
+                                <div class="tools-box">
+                                    <h3>contentfull</h3>
+                                    <img src="../images/services-imgs/contentfull.png">                       
+                                </div>
+                                <div class="tools-box">
+                                    <h3>prismic</h3>
+                                    <img src="../images/services-imgs/prismic.png">                        
+                                </div>
+                                <div class="tools-box">
+                                    <h3>graphcms</h3>
+                                    <img src="../images/services-imgs/graphcms.png">                        
+                                </div>
+                                <div class="tools-box">
+                                    <h3>Agility</h3>
+                                    <img src="../images/services-imgs/agility.png">                     
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="design">
+                <div class="container">
+                    <div class="design-content">
+                        <div class="images">
+                            <div class="img1">
+                                <img src="../images/services-imgs/text-style (1).png">
+                            </div>
+                            <div class="img2">
+                                <img src="../images/services-imgs/contraints.png">
+                            </div>
+                        </div>
+                        <div class="text">
+                           <h1>تصميم خاص</h1>
+                           <p>لا يوجد موقع ويب رائع بدون تصميم مخصص. نحن لا نستخدم نماذج تافهة! فقط التفرد والإبداع الخالص. نحن نستفيد من معرفتنا في واجهة مستخدم بسيطة وواضحة UX لمساعدة عملك على التميز والتألق.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="identity">
+                <div class="container">
+                    <div class="identity-content">
+                        <div class="identity-tools">
+                            <div class="rectangle">
+                                <div class="text">
+                                    <h1>Helvetica Neue Bold</h1>
+                                    <p>abcdfeghigklmnopqrstuvwxyz</p>
+                                </div>
+                                <div class="box">
+                                    <h1>T</h1>
+                                    <h4>T</h4>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="text">
+                                    <h1>إضافات الهوية</h1>
+                                    <p>"تمامًا مثل جميع الأشخاص، تتمتع الشركات بشخصيتها"
+                                     هذا البيان من مهمتنا مباشرة إلى العلامة التجارية. يمكننا تحديث هوية علامتك التجارية بإرشادات أساسية لشركتك كإضافة لتطوير موقع الويب. 
+                                    </p>
+                                </div>
+                                <div class="tools-box">
+                                    <div class="shapes">
+                                        <img src="../images/services-imgs/Group 124.png 124.png">
+                                        <img src="../images/services-imgs/Ellipse 83.png">
+                                        <img src="../images/services-imgs/Vector 13.png">
+                                        <img src="../images/services-imgs/Vector 14.png">
+                                        <img src="../images/services-imgs/Vector 15.png">
+                                    </div>
+                                    <div class="colors">
+                                        <div class="sunglow">
+                                            <h3>Sunglow</h3>
+                                            <div class="color-dgr">
+                                                <div class="rgb">
+                                                    <p>R</p>
+                                                </div>
+                                                <div class="rgb-num">
+                                                    <p>255</p>
+                                                </div>
+                                            </div>
+                                            <div class="color-dgr">
+                                                <div class="rgb">
+                                                    <p>G</p>
+                                                </div>
+                                                <div class="rgb-num">
+                                                    <p>198</p>
+                                                </div>
+                                            </div>
+                                            <div class="color-dgr">
+                                                <div class="rgb">
+                                                    <p>B</p>
+                                                </div>
+                                                <div class="rgb-num">
+                                                    <p>52</p>
+                                                </div>
+                                            </div>
+                                            <p>FFC634#</p>
+                                        </div>
+                                        <div id="rectangle">
+                                            <div class="rec1"></div>
+                                            <div class="rec2"></div>
+                                            <div class="rec3"></div>
+                                            <div class="rec4"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="design-tools">
+                <div class="container">
+                    <h1>أدوات التصميم</h1>
+                    <div class="d-tools">
+                        <img src="../images/services-imgs/Ae.png">
+                        <img src="../images/services-imgs/Figma.png">
+                        <img src="../images/services-imgs/Ai.png">
+                        <img src="../images/services-imgs/miro.png">
+                        <img src="../images/services-imgs/Ps.png">
+                    </div>
+                </div>
+            </div>
+            <div class="process">
+                <div class="container">
+                    <h1 class="heading">تعلم كيف نصمم</h1>
+                    <div class="process-content">
+                        <div class="image">
+                            <img src="../images/services-imgs/133 1.png">
+                        </div>
+                        <div class="text">
+                            <h1>موقع الويب في عملية التصميم. الجزء 2</h1>
+                            <p>هذا هو الجزء الثاني من سير عمل التصميم لدينا. هذه المرة، نتعمق في موضوع التصميم الرئيسي - عملية الموقع.</p>
+                            <div class="btn">
+                                <button>إقرأ المزيد</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="work-process">
+                <h1 class="title">سيرورة العمل</h1>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="cer">
+                            <p>1</p>
+                            <h2>تحضير</h2>
+                        </div>
+                        <div class="timeline-content">
+                            <ol>
+                                <li>ملء الملخص</li>
+                                <li>التحليل الأولي</li>
+                                <li>انطلاق العميل</li>
+                                <li>تخطيط</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="cer">
+                            <p>2</p>
+                            <h2>تصميم</h2>
+                        </div>
+                        <div class="timeline-content">
+                            <ol>
+                                <li>جمع المحتوى </li>
+                                <li>الوايرفريم </li>
+                                <li>استكشاف الأسلوب</li>
+                                <li>ابتكار مفهوم هاي فاي</li>
+                                <li>مراجعة المطور</li> 
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="cer">
+                            <p>3</p>
+                            <h2>تطوير</h2>
+                        </div>
+                        <div class="timeline-content">
+                            <ol>
+                                <li>إعداد مشروع</li>
+                                <li>تطوير واجهة المستخدم</li>
+                                <li>مواجعة التصميم</li>
+                                <li>اتصال GSM</li>
+                                <li>مراجعة سؤال وجواب</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="cer">
+                            <p>4</p>
+                            <h2>السلم</h2>
+                        </div>
+                        <div class="timeline-content">
+                            <ol>
+                                <li>إعداد الاستضافة</li>
+                                <li>تعيين</li>
+                                <li>نقل أصول التصميم</li>
+                                <li>الاحتفال</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    <!-- Footer -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="content">
+           <h3>تريد أن تعمل معنا؟</h3>
+           <p>توقف التفكير في شيء عندما يمكنك الحصول عليه! اتصل بنا الآن واصنع صاروخًا من موقع الويب الخاص بك.</p>
+           <h4>Privacy Policy</h4>
+           <p dir="ltr">UNIKORNS SP.ZO.O. WARSOW, POLAND
+            <br>
+            KRS:0000861444, NIP: 5252837088, REGON: 387103496
+           </p>
+           <p class="copyright" dir="ltr">&copy; 2022 UNIKORNS ALL RIGHTS RESERVED.</p>
+        </div>
+        <div class="contact">
+          <div class="send-us">
+            <h4>أرسل لنا ملاحظة</h4>
+            <div class="notes">
+              <i class="email">hello@unikorns.work</i>
+            </div>
+          </div>
+          <div class="social">
+            <h4>تابعنا</h4>
+              <ul>
+                <li>Dribble</li>
+                <li>Clutch</li>
+                <li>linkedin</li>
+                <li>Instagram</li>
+                <li>Behance</li>
+              </ul>
+          </div>
+        </div>
+        <div class="shape">
+            <img src="../images/services-imgs/shape.png">
+        </div>
+     </div>
+    </div>
+        <script src="../Js/main.js"></script>
+    </body>
+</html>

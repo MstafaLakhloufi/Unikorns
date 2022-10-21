@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="../css/show-cases/css/style.css" /> -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>العروض</title>
+    <!-- Render All elements Normally-->
+    <link rel="stylesheet" href="../css/show-cases/css/normalize.css"/>
+    <!-- Font Awesome Library-->
+    <link rel="stylesheet" href="../css/show-cases/css/all.min.css"/>
+    <!--MAin All Template CSS File-->
+    <link rel="stylesheet" href="../css/show-cases/css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div id="logo"<a href="/">Unikorns</a></div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">الصفحة الرئيسية</a></li>
+                <li><a class="active" href="showcases.html">العروض</a></li>
+                <li><a href="services.html">الخدمات</a></li>
+                <li><a href="aboutUs.html">من نحن</a></li>
+                <li><a href="../index.html#magazine">المجلة</a></li>
+                <li id="contact-us" onclick="openNav()">تواصل معنا</li>
+            </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="../index.html">الصفحة الرئيسية</a></li>
+                <li><a class="active" href="showcases.html">العروض</a></li>
+                <li><a href="services.html">الخدمات</a></li>
+                <li><a href="aboutUs.html">من نحن</a></li>
+                <li><a href="../index.html#magazine">المجلة</a></li>
+                <li id="contact-us" onclick="openNav()">تواصل معنا</li>
+            </ul>
+        </div> 
+    </header>
+
+     <div class="contactUs" id="backdrop"></div>
+        <div id="contact-form" class="form-container">
+          <img src="../images/showcases-imgs/close.png" class="closebtn" onclick="closeNav()">
+          <h1>إقتبس</h1>
+          <p>توقف عن التفكير في شيء عندما يمكنك الحصول عليه! اتصل بنا الآن واصنع صاروخًا من موقع الويب الخاص بك.</p>
+          <form>
+              <input type="text" id="name" name="name" placeholder="الإسم"><br>
+              <input type="email" id="email" name="email" placeholder="البريد الإلكتروني*" required><br>
+              <input type="text" id="message" name="message" placeholder="الرسالة*" required><br>
+          </form>
+          <p>حدد ميزانيتك</p>
+          <div>
+            <button>$10k-$5k</button>
+            <button>$20k-$10k</button>
+            <button>$30k-$20k</button>
+            <button>غير ذلك</button>
+          </div>
+          <button>أرسل الرسالة</button>
+          <p>بالنقر على إرسال رسالة، فإنك توافق على سياسة الخصوصية<br><br>أو أرسل لنا ملاحظة عبر البريد الإلكتروني<br>hello@unikorns.work</p>
+          
+        </div>
+
+    <!-- Main section-->
+    <div class="show-cases" id="show-cases">
+        <div class="container">
+            <h1>أحدث أعمالنا</h1>
+            <p>
+                انظروا إلى ما يمكننا إنشاؤه معًا، كتفًا إلى كتف. الاتصالات الرائعة
+                والعمليات جيدة البناء هي مفاتيح عالم المشاريع المجهزة بشكل
+            مثالي.
+            </p>
+            <div class="images">
+                <div class="card">
+                    <img src="../images/showcases-imgs/1.png">
+                    <div class="tittle">
+                       <h2>منصة تعليمية</h2> 
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../images/showcases-imgs/2.png">
+                    <div class="tittle">
+                      <h2>منصة عقارية</h2> 
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../images/showcases-imgs/3.png">
+                    <div class="tittle">
+                      <h2>منصة مكتب للتجارة الإلكترونية بدون رأس</h2> 
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../images/showcases-imgs/4.png">
+                    <div class="tittle">
+                      <h2>منصة التقييم الأعلى تصنيفًا</h2> 
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../images/showcases-imgs/5.png">
+                    <div class="tittle">
+                      <h2>تطبيق شراء القهوة</h2> 
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../images/showcases-imgs/6.png">
+                    <div class="tittle">
+                      <h2>تصاميم البطاقات</h2> 
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../images/showcases-imgs/7.png">
+                    <div class="tittle">
+                      <h2>مزود مساحة العمل المشترك</h2> 
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../images/showcases-imgs/8.png">
+                    <div class="tittle">
+                      <h2>منصة عقارية</h2> 
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../images/showcases-imgs/9.png">
+                    <div class="tittle">
+                       <h2>بطاقة مهنية</h2> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Footer -->
+  <div class="footer">
+      <div class="container">
+        <div class="content">
+           <h3>تريد أن تعمل معنا؟</h3>
+           <p>توقف التفكير في شيء عندما يمكنك الحصول عليه! اتصل بنا الآن واصنع صاروخًا من موقع الويب الخاص بك.</p>
+           <h4>Privacy Policy</h4>
+           <p dir="ltr">UNIKORNS SP.ZO.O. WARSOW, POLAND
+            <br>
+            KRS:0000861444, NIP: 5252837088, REGON: 387103496
+           </p>
+           <p class="copyright" dir="ltr">&copy; 2022 UNIKORNS ALL RIGHTS RESERVED.</p>
+        </div>
+        <div class="contact">
+          <div class="send-us">
+            <h4>أرسل لنا ملاحظة</h4>
+            <div class="notes">
+              <i class="email">hello@unikorns.work</i>
+            </div>
+          </div>
+          <div class="social">
+            <h4>تابعنا</h4>
+              <ul>
+                <li>Dribble</li>
+                <li>Clutch</li>
+                <li>linkedin</li>
+                <li>Instagram</li>
+                <li>Behance</li>
+              </ul>
+          </div>
+        </div>
+        <div class="shape">
+            <img src="../images/showcases-imgs/shape.png">
+        </div>
+     </div>
+    </div> 
+    <script src="../Js/main.js"></script>
+  </body>
+</html>
