@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/home/main.css" />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <title>الصفحة الرئيسية</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <div id="logo"<a href="/">Unikorns</a></div>
+                <nav>
+                    <ul>
+                        <li><a class="active" href="index.html">الصفحة الرئيسية</a></li>
+                        <li><a href="pages/showcases.html">العروض</a></li>
+                        <li><a href="pages/services.html">الخدمات</a></li>
+                        <li><a href="pages/aboutUs.html">من نحن</a></li>
+                        <li><a href="#magazine">المجلة</a></li>
+                        <li id="contact-us" onclick="openNav()">تواصل معنا</li>
+                    </ul>
+            </nav>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a class="active" href="index.html">الصفحة الرئيسية</a></li>
+                    <li><a href="pages/showcases.html">العروض</a></li>
+                    <li><a href="pages/services.html">الخدمات</a></li>
+                    <li><a href="pages/aboutUs.html">من نحن</a></li>
+                    <li><a href="#magazine">المجلة</a></li>
+                    <li id="contact-us" onclick="openNav()">تواصل معنا</li>
+                </ul>
+            </div> 
+        </header>
+
+        <div class="contactUs" id="backdrop"></div>
+          <div id="contact-form" class="form-container">
+          <img src="images/home-imgs/contactUs/close.png" class="closebtn" onclick="closeNav()" alt="">
+          <h1>إقتبس</h1>
+          <p>توقف عن التفكير في شيء عندما يمكنك الحصول عليه! اتصل بنا الآن واصنع صاروخًا من موقع الويب الخاص بك.</p>
+          <form>
+              <input type="text" id="name" name="name" placeholder="الإسم"><br>
+              <input type="email" id="email" name="email" placeholder="البريد الإلكتروني*" required><br>
+              <input type="text" id="message" name="message" placeholder="الرسالة*" required><br>
+          </form>
+            <p>حدد ميزانيتك</p>
+            <div>
+                <button>$10k-$5k</button>
+                <button>$20k-$10k</button>
+                <button>$30k-$20k</button>
+                <button>غير ذلك</button>
+            </div>
+            <button>أرسل الرسالة</button>
+            <p>بالنقر على إرسال رسالة، فإنك
+                <br>
+                توافق على سياسة الخصوصية
+                </p>
+                <p>أو أرسل لنا ملاحظة عبر البريد الإلكتروني<br>hello@unikorns.work</p>
+            <img src="images/home-imgs/contactUs/shape.png">
+        </div>
+
+    <div class="landing">
+      <div class="intro-text">
+        <h1>مرحبًا، نحن <span>Unikorns</span>. نصنع مواقع الجيل التالي للشركات الحديثة.</h1>
+        <div class="details">
+            <img src="images/home-imgs/image1.png"></img>
+            <p>
+            هندسة التطوير التدريجي JAMstack والتصميم المخصص - 
+            هذا ما يجعل مواقعنا الإلكترونية من الجيل التالي. الصياغة باستخدام عمليات واضحة حيث
+            تكون كل التفاصيل مهمة - هذا هو أفضل وصف لنا.
+            </p>
+            <img src="images/home-imgs/image2.png"></img>
+          </div>
+      </div>
+    </div>
+    <div class="showcases">
+        <div class="container">
+            <div class="showcases-content">
+                <div class="col">
+                    <div class="text">
+                        <h1>العروض</h1>
+                        <p>انظروا إلى ما يمكننا إنشاؤه معًا، كتفًا إلى كتف.
+                            الاتصالات الرائعة والعمليات جيدة البناء هي مفاتيح
+                            عالم المشاريع المجهزة بشكل مثالي.
+                        </p>
+                        <button>تواصل معنا</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/home-imgs/منصة عقارية.png">
+                        <h2>منصة عقارية</h2>
+                    </div>
+                    <div class="card">
+                        <img src="images/home-imgs/مكتب التجارة.png">
+                        <h2>منصة مكتب للتجارة الإلكترونية بدون رأس</h2>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="circle">
+                            <div class="content">
+                                <p>مشروع جديد</p>
+                            </div>
+                        </div>
+                        <img src="images/home-imgs/منصة تعليمية.png">
+                        <h2>منصة تعليمية</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/home-imgs/منصة التقييم.png">
+                        <h2>منصة التقييم الأعلى تصنيفًا</h2>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="about">
+                    <div class="icon1">
+                        <img src="images/home-imgs/icon1.png">
+                    </div>
+                    <div class="about-text">
+                        <h2>حول تقنية JAMstack</h2>
+                        <p>
+                            JAMstack هو نهج حديث لتطوير الويب. يتضمن هذا الأسلوب استخدام 
+                            Static Site Generators و Headless CMSs و CDNs كخادم. هؤلاء الثلاثة يقودوننا
+                            إلى قسم الصفحة التالي - فوائد JAMstack.
+                        </p>
+                    </div>
+                    <div class="icon2">
+                        <img src="images/home-imgs/icon2.png">
+                    </div>
+                </div>
+            </div>
+            <div class="benefits">
+                <div class="container">
+                    <div class="about-benefits">
+                        <h2>فوائد JAMstack</h2>
+                    </div>
+                    <div class="benefits-container">
+                        <div class="col">
+                            <div class="srv-box">
+                                <img src="images/home-imgs/fast.png">
+                                <div class="text">
+                                    <h3>بسرعة البرق</h3>
+                                    <p>
+                                    فضل العروض المسبقة لموقع Static Site Generator قبل قيام المستخدم بتقديم طلب. أيضًا ، يعيد موقع الويب البناء عند الطلب فقط عندما يتغير كود المصدر أو المحتوى في CMS.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="srv-box">
+                                <img src="images/home-imgs/fast.png">
+                                <div class="text">
+                                <h3>صيانة منخفضة التكلفة</h3>
+                                    <p>
+                                    تكلفة البنية التحتية أقل من الطريقة التقليدية لأنها لا تتطلب قوة حوسبة ثابتة.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="srv-box">
+                                <img src="images/home-imgs/checked.png">
+                                <div class="text">
+                                     <h3>مستقر وآمن للغاية</h3>
+                                    <p>
+                                    لن يتم سحق موقع الويب أبدًا ما لم يتم سحق CDN (شبكة توصيل المحتوى) بالكامل. لكن من غير المحتمل جدا.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="srv-box">
+                                <img src="images/home-imgs/fast.png">
+                                <div class="text">
+                                    <h3>المرونة</h3>
+                                    <p>
+                                    إذا أردت تغيير نظام إدارة محتوى فجأة ، فهذه ليست مشكلة. بفضل Headless СMS ، يجب تغيير عنوان URL فقط ، وربما بضعة أشياء فقط في شفرة المصدر.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="tools">
+                        <h1>أدواتنا</h1>
+                        <div class="face">
+                            <h2>الواجهة والبناء</h2>
+                            <div class="columns">
+                                <div class="tools-box">
+                                    <h3>Gatsby</h3>
+                                    <img src="images/home-imgs/Gatsby.png">
+                                </div>
+                                <div class="tools-box">
+                                    <h3>React</h3>
+                                    <img src="images/home-imgs/react.png">                         
+                                </div>
+                                <div class="tools-box">
+                                    <h3>Next.js</h3>
+                                    <img src="images/home-imgs/nextJs.png">                           
+                                </div>
+                            </div>
+                        </div>
+                        <div class="headless">
+                            <h2>HEADLESS CMS</h2>
+                            <div class="rows">
+                                <div class="tools-box">
+                                    <h3>strapi</h3>
+                                    <img src="images/home-imgs/strapi-icon.png">                          
+                                </div>
+                                <div class="tools-box">
+                                    <h3>storyblock</h3>
+                                    <img src="images/home-imgs/storyblock.png">  
+                                </div>
+                                <div class="tools-box">
+                                    <h3>contentfull</h3>
+                                    <img src="images/home-imgs/contentfull.png">                       
+                                </div>
+                                <div class="tools-box">
+                                    <h3>prismic</h3>
+                                    <img src="images/home-imgs/prismic.png">                        
+                                </div>
+                                <div class="tools-box">
+                                    <h3>graphcms</h3>
+                                    <img src="images/home-imgs/graphcms.png">                        
+                                </div>
+                                <div class="tools-box">
+                                    <h3>Agility</h3>
+                                    <img src="images/home-imgs/agility.png">                     
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="design">
+                <div class="container">
+                    <div class="design-content">
+                        <div class="images">
+                            <div class="img1">
+                                <img src="images/home-imgs/text-style (1).png">
+                            </div>
+                            <div class="img2">
+                                <img src="images/home-imgs/contraints.png">
+                            </div>
+                        </div>
+                        <div class="text">
+                           <h1>تصميم خاص</h1>
+                           <p>لا يوجد موقع ويب رائع بدون تصميم مخصص. نحن لا نستخدم نماذج تافهة! فقط التفرد والإبداع الخالص. نحن نستفيد من معرفتنا في واجهة مستخدم بسيطة وواضحة UX لمساعدة عملك على التميز والتألق.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="identity">
+                <div class="container">
+                    <div class="identity-content">
+                        <div class="identity-tools">
+                            <div class="rectangle">
+                                <div class="text">
+                                    <h1>Helvetica Neue Bold</h1>
+                                    <p>abcdfeghigklmnopqrstuvwxyz</p>
+                                </div>
+                                <div class="box">
+                                    <h1>T</h1>
+                                    <h4>T</h4>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="text">
+                                    <h1>إضافات الهوية</h1>
+                                    <p>"تمامًا مثل جميع الأشخاص، تتمتع الشركات بشخصيتها"
+                                     هذا البيان من مهمتنا مباشرة إلى العلامة التجارية. يمكننا تحديث هوية علامتك التجارية بإرشادات أساسية لشركتك كإضافة لتطوير موقع الويب. 
+                                    </p>
+                                </div>
+                                <div class="tools-box">
+                                    <div class="shapes">
+                                        <img src="images/home-imgs/Group 124.png">
+                                        <img src="images/home-imgs/Ellipse 83.png">
+                                        <img src="images/home-imgs/Vector 13.png">
+                                        <img src="images/home-imgs/Vector 14.png">
+                                        <img src="images/home-imgs/Vector 15.png">
+                                    </div>
+                                    <div class="colors">
+                                        <div class="sunglow">
+                                            <h3>Sunglow</h3>
+                                            <div class="color-dgr">
+                                                <div class="rgb">
+                                                    <p>R</p>
+                                                </div>
+                                                <div class="rgb-num">
+                                                    <p>255</p>
+                                                </div>
+                                            </div>
+                                            <div class="color-dgr">
+                                                <div class="rgb">
+                                                    <p>G</p>
+                                                </div>
+                                                <div class="rgb-num">
+                                                    <p>198</p>
+                                                </div>
+                                            </div>
+                                            <div class="color-dgr">
+                                                <div class="rgb">
+                                                    <p>B</p>
+                                                </div>
+                                                <div class="rgb-num">
+                                                    <p>52</p>
+                                                </div>
+                                            </div>
+                                            <p>FFC634#</p>
+                                        </div>
+                                        <div id="rectangle">
+                                            <div class="rec1"></div>
+                                            <div class="rec2"></div>
+                                            <div class="rec3"></div>
+                                            <div class="rec4"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="magazine" id="magazine">
+                <div class="container">
+                    <h1>المجلة</h1>
+                    <div class="mag-content">
+                        <div class="box">
+                            <div class="text">
+                                <h2>Gatsby أو Next.js-
+                                    ماذا تختار في عام 2022؟ 
+                                </h2>
+                                <p>تطوير# </p>
+                            </div>
+                            <div class="shapes">
+                                <img src="images/home-imgs/Group 130.png">
+                                <img src="images/home-imgs/Group 131.png">
+                                <img class="special" src="images/home-imgs/Group 132.png">
+                            </div>
+                        </div>
+                        <div class="mag-text">
+                            <h2>Gatsby أو Next.js - ماذا تختار في عام 2022؟</h2>
+                            <p>عندما أبدأ مشروعًا جديدًا، غالبًا ما أجد نفسي
+                                أختار بين إطار عمل Gatsby أو Next. لذلك
+                                قررت أن أكتل منشورًا صغيرًا حول الغرض من
+                                هذه الأشياء وماذا تختار في عام 2022.
+                            </p>
+                            <button>أرني ما الذي حصلت عليه</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-details">
+                <div class="container">
+                    <div class="content">
+                        <div class="col">
+                            <hr />
+                            <h2>تطوير</h2>
+                            <hr />
+                            <h3>لماذا تحتاج Headless CMS الرأس إلى إدارة الصفحة</h3>
+                            <p>أحد أهم جوانب نظام إدارة المحتوى هو كيف يمنح غير المطورين القدرة على التحرير...</p>
+                        </div>
+                         <div class="col">
+                            <hr />
+                            <h2>تعليم</h2>
+                            <hr />
+                            <h3>أهم 5 مشاكل وحلول لموقع الويب</h3>
+                            <p>فيما يلي أكثر العوامل شيوعًا التي قد تمنع موقع الويب الخاص بك من تحقيق أهدافك.</p>
+                        </div>
+                         <div class="col">
+                            <hr />
+                            <h2>تعليم</h2>
+                            <hr />
+                            <h3>فوائد وجود موقع على شبكة الإنترنت للشركات الصغيرة</h3>
+                            <p>لماذا موقع الويب مهم للأعمال التجارية الصغيرة؟ تعرف على كيفية بيع منتجاتك وزيادة اختراق السوق و....</p>
+                        </div>
+                        
+                    </div>
+                    <button>إقرأ المزيد</button>
+                </div>
+            </div>
+            <div class="information">
+                <div class="container">
+                    <div class="content">
+                        <div class="more-info">
+                            <h1>معلومات عنا</h1>
+                            <p>
+                                بصفتنا مصممين ومطورين متحمسين، نحب تصميم
+                                منتجات سهلة الاستخدام وأنيقة وجذابة. نحن
+                                نستكشف ونصمم ونرمز لنجاح عملك. Unikorns
+                                تعني الأشخاص الذين يهتمون بالجودة والعلاقات المهنية.
+                            </p>
+                        </div>
+                        <div class="our-mission">
+                            <h1>مهمتنا</h1>
+                            <p>تمامًا مثل جميع الأشخاص، تتمتع الشركات
+                                بشخصياتها. مهمتنا هي مساعدة الشركات والأفراد
+                                على التعبير عن تفردهم الحقيقي. نريد أن نعمل معك
+                                جنبًا إلى جنب لتقديم أفضل تجربة وعواطف ثمينة
+                                ستتذكرها. "كل التفاصيل مهمة" هو شعارنا.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="images">
+                        <div class="img1">
+                            <img src="images/home-imgs/photo1.png">
+                        </div>
+                        <div class="img2">
+                            <img src="images/home-imgs/photo2.png">
+                        </div>
+                        <div class="img3">
+                            <img src="images/home-imgs/photo3.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="questions">
+                <div class="container">
+                    <div class="content">
+                        <div class="ques">
+                            <h1>تحقق من هذه الأسئلة المتداولة لمعرفة ما إذا كان لدينا تطابق.</h1>
+                            <div class="select">
+                                <select>
+                                    <option value="1" selected="selected">ماذا تحتاج لعمل تقدير؟</option>
+                                    <option value="2">الإجابة</option>
+                                </select>
+                            </div>
+                            <div class="select">
+                                <select>
+                                    <option value="1" selected="selected">ما المجالات التي تتخصص فيها؟</option>
+                                    <option value="2">الإجابة</option>
+                                </select>
+                            </div>
+                            <div class="select">
+                                <select>
+                                    <option value="1" selected="selected">ماذا لو لم يكن موقع الويب الخاص بك يحتوي على الخدمات التي أحتاجها؟</option>
+                                    <option value="2">الإجابة</option>
+                                </select>
+                            </div>
+                        </div>
+                            <img src="images/home-imgs/Qimg.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="content">
+           <h3>تريد أن تعمل معنا؟</h3>
+           <p>توقف التفكير في شيء عندما يمكنك الحصول عليه! اتصل بنا الآن واصنع صاروخًا من موقع الويب الخاص بك.</p>
+           <h4>Privacy Policy</h4>
+           <p dir="ltr">UNIKORNS SP.ZO.O. WARSOW, POLAND
+            <br>
+            KRS:0000861444, NIP: 5252837088, REGON: 387103496
+           </p>
+           <p class="copyright" dir="ltr">&copy; 2022 UNIKORNS ALL RIGHTS RESERVED.</p>
+        </div>
+        <div class="contact">
+          <div class="send-us">
+            <h4>أرسل لنا ملاحظة</h4>
+            <div class="notes">
+              <img src="images/home-imgs/email.png">  
+              <i class="email">hello@unikorns.work</i>
+            </div>
+          </div>
+          <div class="social">
+            <h4>تابعنا</h4>
+              <ul>
+                <li>Dribble</li>
+                <li>Clutch</li>
+                <li>linkedin</li>
+                <li>Instagram</li>
+                <li>Behance</li>
+              </ul>
+          </div>
+        </div>
+        <div class="shape">
+            <img src="images/home-imgs/shape1.png">
+        </div>
+     </div>
+    </div>
+        <script src="Js/main.js"
+    </body>
+</html>
